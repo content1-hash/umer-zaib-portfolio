@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Umer Zaib — Copywriter & Content Writer. Web copy, SEO blogs, articles, and conversion-focused writing." />
+  <title>Umer Zaib — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Top gradient / background -->
+  <div class="bg">
+    <div class="glow g1"></div>
+    <div class="glow g2"></div>
+  </div>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand-dot"></span>
+        <span>Umer Zaib</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a class="btn btn-ghost" href="#contact">Contact</a>
+      </nav>
+
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" hidden>
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="pill">Copywriting • Web Content • SEO Blogs • Articles</p>
+
+          <h1>
+            Writing that sounds human —
+            <span class="grad">and drives action.</span>
+          </h1>
+
+          <p class="lead">
+            I’m <strong>Umer Zaib</strong>, a versatile copywriter and content writer.
+            I help brands communicate clearly, rank better, and convert visitors into customers.
+          </p>
+
+          <div class="cta">
+            <a class="btn btn-primary" href="#work">View Work</a>
+            <a class="btn btn-secondary" href="#contact">Hire Me</a>
+          </div>
+
+          <div class="meta">
+            <div class="meta-item">
+              <span class="meta-label">Specialties</span>
+              <span class="meta-value">Web copy, SEO content, brand voice</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Delivery</span>
+              <span class="meta-value">Fast drafts + clean revisions</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-card">
+          <div class="card">
+            <div class="card-top">
+              <div class="avatar" aria-hidden="true">UZ</div>
+              <div>
+                <p class="card-title">Available for projects</p>
+                <p class="card-sub">Remote • Freelance • Contract</p>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="stat">
+                <span class="stat-k">What I write</span>
+                <span class="stat-v">Landing pages, blogs, articles, web copy</span>
+              </div>
+              <div class="stat">
+                <span class="stat-k">Best for</span>
+                <span class="stat-v">SaaS • Agencies • eCommerce • Local brands</span>
+              </div>
+              <div class="stat">
+                <span class="stat-k">Portfolio</span>
+                <span class="stat-v">Published + private Drive samples</span>
+              </div>
+            </div>
+
+            <a class="btn btn-ghost full" href="#contact">Let’s talk</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Selected Work</h2>
+          <p class="muted">
+            A curated mix of published pieces and private samples (Google Drive).
+            Each entry includes context so it feels like a portfolio, not random links.
+          </p>
+        </div>
+
+        <div class="filters" role="tablist" aria-label="Work categories">
+          <button class="chip active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="chip" data-filter="web" role="tab">Web Copy</button>
+          <button class="chip" data-filter="seo" role="tab">SEO Blogs</button>
+          <button class="chip" data-filter="article" role="tab">Articles</button>
+          <button class="chip" data-filter="email" role="tab">Email</button>
+        </div>
+
+        <div id="workGrid" class="grid" aria-live="polite"></div>
+
+        <div class="note">
+          <div>
+            <h3>Need more samples?</h3>
+            <p class="muted">
+              I can share additional work on request, including NDA-friendly or redacted examples.
+            </p>
+          </div>
+          <a class="btn btn-secondary" href="#contact">Request more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Services</h2>
+          <p class="muted">Pick what you need. I’ll match tone, audience, and conversion goals.</p>
+        </div>
+
+        <div class="grid services">
+          <div class="card soft">
+            <h3>Website & Landing Page Copy</h3>
+            <p class="muted">Home, landing pages, product/service pages, About pages, microcopy.</p>
+          </div>
+          <div class="card soft">
+            <h3>SEO Blogs</h3>
+            <p class="muted">Keyword-focused posts that read naturally and keep users engaged.</p>
+          </div>
+          <div class="card soft">
+            <h3>Articles & Thought Leadership</h3>
+            <p class="muted">Clear, well-structured writing with a strong narrative flow.</p>
+          </div>
+          <div class="card soft">
+            <h3>Email Copy</h3>
+            <p class="muted">Newsletters, launch sequences, promos, and retention emails.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container about">
+        <div>
+          <h2>About</h2>
+          <p class="muted">
+            I’m Umer Zaib — a copywriter and content writer focused on clarity, persuasion, and structure.
+            My writing is simple, reader-friendly, and designed to move people to take the next step.
+          </p>
+
+          <div class="about-list">
+            <div class="about-item">
+              <span class="dot"></span>
+              <div>
+                <strong>Process:</strong>
+                <span class="muted">Brief → research → draft → revisions → final polish</span>
+              </div>
+            </div>
+
+            <div class="about-item">
+              <span class="dot"></span>
+              <div>
+                <strong>Strengths:</strong>
+                <span class="muted">Headlines, flow, tone, readability, SEO structure</span>
+              </div>
+            </div>
+
+            <div class="about-item">
+              <span class="dot"></span>
+              <div>
+                <strong>Best fit:</strong>
+                <span class="muted">Brands that want clean, modern messaging that converts</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card soft about-card">
+          <h3>Quick links</h3>
+          <div class="quick">
+            <a class="quick-link" href="#work">View work</a>
+            <a class="quick-link" href="#services">Services</a>
+            <a class="quick-link" href="#contact">Contact</a>
+          </div>
+
+          <div class="divider"></div>
+
+          <p class="muted small">
+            Tip: For Google Drive samples, export to PDF or keep “View-only” links.
+            I can help you format them like case studies.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container contact">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p class="muted">Send a short brief and I’ll reply with next steps.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="card soft">
+            <h3>Start a project</h3>
+            <p class="muted">
+              Email me with: your niche, goal, audience, deadline, and any references.
+            </p>
+
+            <!-- Replace email below with your real email -->
+            <a class="btn btn-primary full" href="mailto:youremail@example.com?subject=Project%20Inquiry%20—%20Umer%20Zaib">
+              Email Umer
+            </a>
+
+            <p class="muted small">You can also add WhatsApp/LinkedIn buttons here.</p>
+          </div>
+
+          <div class="card soft">
+            <h3>What you’ll get</h3>
+            <ul class="list">
+              <li>Clear structure + strong hooks</li>
+              <li>Reader-friendly flow (no fluff)</li>
+              <li>SEO formatting when needed</li>
+              <li>Clean revisions until it’s right</li>
+            </ul>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <p class="muted small">© <span id="year"></span> Umer Zaib. Built for GitHub Pages.</p>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
